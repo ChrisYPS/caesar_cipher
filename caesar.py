@@ -1,5 +1,9 @@
 import sys
 
+#NOTE
+#The module of 26 is used as a wrap around.
+#It's used to ensure the shift for an alphabetical character returns an alphabetical character as well
+
 def caesar(string, shift):
     cipher = ''
     for char in string:
